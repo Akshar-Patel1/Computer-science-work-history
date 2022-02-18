@@ -1,0 +1,30 @@
+Do Now:
+Int, double and boolean are primitive data types
+Int is a primitive data type while integer is a wrapper class and can call in-built methods defined in the class.
+
+Explain why Integer.parseInt("10") is valid and
+int.parseInt("10") not valid
+
+Int does not work because int is a primitive type which can only store binary values in it while integer is more flexible because it stores it in a references so it can parse while int can’t
+
+
+Class activity
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args){
+  Scanner scan = new Scanner(System.in);
+  System.out.print("Enter student name: ");
+  String studentName = scan.nextLine();
+  System.out.print("Enter first test grade: ");
+  int firstGrade = scan.nextInt();
+  System.out.print("Enter second test grade: ");
+  int secondGrade = scan.nextInt();
+  System.out.print("Enter third test grade: ");
+  int thirdGrade = scan.nextInt();
+  System.out.println(studentName + " average grade is " + (firstGrade + secondGrade + thirdGrade / 3));
+ 
+ }
+}
+ 
+ 
+

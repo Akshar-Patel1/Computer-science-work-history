@@ -1,0 +1,70 @@
+tMr. Zeng Java Programming 02/11/2022 (10 points)
+
+Name  Akshar Patel               Grade _______________
+public class HelloWorld {
+
+1 . If we use replit.com IDE,    
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+    }
+
+}
+
+Questions:
+If you save the program, what kind of file will be saved? The file will be saved as a .java file
+How to compile the program in the replit.com console?
+To compile the file you do “javac HelloWorld.java”
+If no error, what kind file will be produced?
+A .class file will be produced after compiling
+How to run the program? (execution of program)
+To run the program you have to run “java HelloWorld”
+If you use HollowWord, instead of HolloWorld and use
+javac HollowWord.java, any error? The console will say an error with the file name will appear in console
+
+If you type public static vid main(String [] args), any error message?
+      There is an error message because the code is missing a {} and void is miss spelled. It should be: 
+public static void main(String[] args) {
+
+    }
+
+
+      
+2. Write a program that uses two input statements to get two words as input. Then, print the words on one line separated by a space. Your program's output should only include the two words and a space between them.
+Hint: To print both words on one line, remember that you can concatenate (add) two phrases by using the + symbol.  Don't forget that you'll need to add a space between the words as well.
+Sample Run
+Enter a word: Good
+Enter a word: morning
+Good morning
+Code example:
+https://www.w3schools.com/java/java_user_input.asp
+
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String x = scan.nextLine();
+        String y = scan.nextLine();
+        System.out.println(x + " " + y);
+    }
+}
+
+3. Modify above program by using args[0] and args[1]
+Same Run
+Your java program is TwoWords.java
+When you run program
+Java TwoWords  Good moring
+(display)
+Good mroning
+
+public class Main {
+
+    public static void main(String[] args) {
+        String x = args[0];
+        String y = args[1];
+        System.out.println(x + " " + y);
+    }
+}

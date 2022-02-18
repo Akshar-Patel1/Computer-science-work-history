@@ -1,0 +1,49 @@
+Do now:
+1. which of following are
+
+
+a. int
+b. String
+c. Integer
+d. double
+e. boolean
+Primitive data type and reference type?
+
+2. Difference between an Integer and int in Java with Examples
+
+
+int n = 20;
+
+Integer n = 45;
+
+
+Integer.parseInt("10");
+
+int.parseInt("10");
+
+
+
+
+
+Explain why Integer.parseInt("10") is valid and
+int.parseInt("10") not valid
+
+
+Submit your Answer in Google Docs format to google classroom
+
+
+
+
+Class activities
+For students who complete Unit1 Lesson 1-3 Coding Activities, do following project and submit to here:
+Write a program to enter a student's name and three test grade, the program will calculate the average of the grade and print out
+student name:
+Average Grade:
+
+
+Format example:
+Enter student name: John Patel
+Enter first test grade: 98
+Enter second test grade :94
+Enter third test grade: 96
+John Patel average grade is 96

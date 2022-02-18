@@ -1,0 +1,20 @@
+Do now:
+1. Assuming that scan is a properly initialized Scanner variable, which of the following correctly inputs a double?
+Group of answer choices
+1. double val = nextDouble();
+2. double val = scan.nextLine();
+3. double val = scan.nextDouble();
+4. double val = scan.nextDouble;
+5. double val = scan.nextValue();
+
+
+2. Assuming that scan is a properly initialized Scanner variable, write a short program to enter student name, age and java class grade average, then display his information. 
+format:
+Enter student's name: Peter
+Enter Student age: 15
+Enter java class grade average: 98
+
+
+Name: Peter
+Age: 15
+Java Average Grade:98

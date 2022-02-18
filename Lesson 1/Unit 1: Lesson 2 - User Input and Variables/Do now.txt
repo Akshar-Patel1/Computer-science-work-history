@@ -1,0 +1,9 @@
+Do now:
+Write a java program to print out 
+****************************************
+Author: Your name
+Project: Your project name, eg. Unit 1: Lesson 2 Coding project 1
+Date: eg, today's date
+Version:  1.0
+*****************************************
+

@@ -1,0 +1,19 @@
+double val = scan.nextDouble();
+
+import java.util.Scanner;
+ 
+public class Main {
+ public static void main(String[] args){
+   Scanner scan = new Scanner(System.in);
+   System.out.print("Enter student's name: ");
+   String studentName = scan.nextLine();
+   System.out.print("Enter Student's age: ");
+   int age = scan.nextInt();
+   System.out.print("Enter java class grade average: ");
+   int averageGrade = scan.nextInt();
+   System.out.println("Name: " + studentName);
+   System.out.println("Age: " + age);
+   System.out.println("Java Average Grade: " + averageGrade);
+ }
+}
+

@@ -1,0 +1,35 @@
+Do now:
+1. To declare a String variable lastName and set it equal to "Mr.Zeng",  courseName and set it "Java Programming"
+2. Scanner class in what package? In order to use nextLine() method, what are three steps, using following example to write three steps to use nextLine() method. 
+import java.util.*;
+public class ScannerNextLineExample1 {
+public static void main(String args[]){
+Scanner scan = new Scanner(System.in);
+System.out.print("Enter Item ID: ");
+String itemID = scan.nextLine();
+System.out.print("Enter Item price: ");
+String priceStr = scan.nextLine();
+
+
+
+
+
+
+
+
+1.
+
+public class main {
+    public static void main(String[] args) {
+        String lastName = "Mr.Zeng";
+        String courseName = "Java Programming";
+        System.out.println(lastName);
+    }
+}
+
+2.
+
+import java.util.*;
+Scanner scan = new Scanner(System.in);
+String itemID = scan.nextLine();
+

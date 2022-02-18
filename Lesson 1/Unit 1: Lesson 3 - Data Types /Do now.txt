@@ -1,0 +1,30 @@
+Do now:
+public class HelloWorld {
+public static void main(String[] args) {
+// Prints "Hello, World" in the terminal window.
+System.out.println("Hello, World");
+}
+}
+
+
+
+1. Type above code by using comments and good indentation in replit.com ID
+2
+Describe what happens if, in HelloWorld.java, you omitmainStringHelloWorldSystem.outprintln
+
+3Describe what happens if, in HelloWorld.java, you omitthe ;the first "the second "the first {the second {the first }the second }
+4Describe what happens if, in HelloWorld.java, you misspell (by, say, omitting the second letter)mainStringHelloWorldSystem.outprintln5I typed in the following program. It compiles fine, but when I execute it, I get the error java.lang.NoSuchMethodError: main. What am I doing wrong?
+public class Hello {
+public static void main() {
+System.out.println("Doesn't execute");
+}
+}
+
+
+
+What I wrote:
+
+When emitting any of those words the compiler return an error code with the code 1 (error: <identifier> expected)
+When removing ; or any of those quotes or brackets it says that the letter is missing and points to where it is missing. (error: ';' expected)
+When trying to run the code it returns an “error: cannot find symbol” and points to where it is wrong.
+The program doesn’t run because the code is missing the String[] args after main inside the parentheses.
