@@ -10,4 +10,3 @@ public class Main {
     System.out.println("Answer is: x = " + ((x * x) - (4 * x) + 10));
   }
 }
-
