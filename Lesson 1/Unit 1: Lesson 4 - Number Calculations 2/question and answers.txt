@@ -1,0 +1,38 @@
+OBJECTIVES:
+Perform calculations with int and double values
+Understand how integer division works in Java, and how to get a more precise value for a division if desired
+Understand binary, unary, and compound operators
+Do now:
+What does x equal after the following code has been executed?int x = 13;
+x = x / 2;
+Group of answer choices
+a . 7
+b. 6
+c. 6.0
+d. 6.5
+
+
+Justify your answer!
+
+
+Programming Activities:
+Write a program to ask user to input temperature of Celsius and print out Fahrenheit temperature: 
+formula for conversion is
+fahrenheit = (celsius * 1.8) + 32
+
+
+
+Homework and project Assignments:
+Unit 1: Lesson 4 - Review Questions/Fast start (Due)
+
+Project:
+Unit 1: Lesson 4 - Coding Activity 1-2  (due)
+
+
+
+Unit1: Lesson 4-Coding Activity 3-4 
+Due: 3/2
+
+
+1. A
+2. See Main.java

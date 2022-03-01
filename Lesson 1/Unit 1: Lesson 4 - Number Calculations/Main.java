@@ -1,4 +1,3 @@
-/* Assignment 1 - Movie Ratings */
 import java.util.Scanner;
 
 public class Main {

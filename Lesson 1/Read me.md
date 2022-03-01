@@ -1,1 +1,1 @@
-These are not in order cause the names arne't in order
+These are not in order cause the names don't order themselves
