@@ -1,0 +1,70 @@
+Objectives:
+Perform casts between int and double data types in both directions
+Understand the difference between a widening conversion and a narrowing conversion
+Understand how doubles are truncated when they are converted to ints.
+Do now:
+
+1. Given 31, how to get 3 and 1 (/ and %)
+2. Given 314, how to get 4,1, 3
+3. Given 3.14 how to get decimal portion 14
+4. What is output of following code segment.:
+
+double x = 7 / 2;
+
+System.out.println(x);
+
+
+Programming Activities
+
+Mr. Zeng example:
+Ask you enter name and three grades and calculate the average grade
+Example format:
+Enter name: Peter
+Enter first grade in decimal: 98.7
+Enter 2nd grade in decimal: 90.0
+Enter 3rd grade in decimal: 89.5
+Peter 's average grade is (in integer)93
+
+
+import java.util.Scanner;
+public class grade{
+        public static void main(String [] args){
+                //Declare variables
+                String name;
+                double grade1, grade2, grade3;
+                int avg;
+
+                //create an instance of Scanner class sc
+                Scanner sc=new Scanner(System.in);
+
+                //Display message to inform user to enter name and grades
+                System.out.println("Enter your name:");
+                //input name and grade
+                name=sc.nextLine();
+
+                //input grade1
+                System.out.println("Enter first grade: ");
+                grade1=sc.nextDouble();
+
+                //input 2nd grade
+                System.out.println("Enter 2nd grade: ");
+                grade2=sc.nextDouble();
+
+                //input 3rd grade
+                System.out.println("Enter 3rd grade: ");
+                grade3=sc.nextDouble();
+
+                //process data
+                avg=(int)((grade1+grade2+grade3)/3+0.5);
+
+                //out average
+                System.out.println("Student name: "+name);
+                System.out.println("Average grade: "+avg);
+        }
+}
+Your turn:
+1. avg=(int)((grade1+grade2+grade3)/3+0.5);
+
+Why +0.5
+why use (int)
+2. Write a program to input fist_name, last_name and five test grades and print out average grade
