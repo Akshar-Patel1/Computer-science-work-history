@@ -1,0 +1,20 @@
+Do now:
+Write a program that inputs the length of two pieces of fabric in feet and inches (as whole numbers) and prints the total.
+
+Sample Run
+
+
+
+Enter the Feet: 3
+Enter the Inches: 11
+Enter the Feet: 2
+Enter the Inches: 5
+
+
+
+Sample Output
+
+Feet: 6 Inches: 4
+
+Hints:
+Use (int)(x/12) to get feet and use x%12 to get inches.
