@@ -1,0 +1,9 @@
+Question 1, what is difference between a and b
+a. String name="Peter";
+b. String name;
+     name="Peter";
+2. Why we use the upper case of S in String and 
+double, int, char are use lower case in first letter?
+
+The difference between A and B is that A uses 1 line of code while B uses the first line to declare the variable and the second to set something to assign.
+String is not a primitive data type while int, double and char are.
