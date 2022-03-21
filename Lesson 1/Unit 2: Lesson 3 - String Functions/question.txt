@@ -1,0 +1,26 @@
+OBJECTIVES:
+Understand that a string is made up of characters which are stored with indices starting at 0 and increasing sequentially up to length-1
+Learn the purpose and behavior of several different functions from the String class and use these in code
+Do now:
+1. What is String data type
+2. List all String Methods/functions you know
+3. What is overload?  (Hint: Use String class method substring or System.out.println as examples
+
+
+Assignments:
+1. Lesson preview and review practice
+2. Coding Activities 1, 2, 3, 4
+
+
+Due 3/24/2022
+
+
+answers:
+
+Do now:
+1. What is String data type
+String is a reference datatype
+2. List all String Methods/functions you know
+length, equals, indexof, substring, touppercase, tolowercase, compareto
+3. What is overload?  (Hint: Use String class method substring or System.out.println as examples
+Able to define more than one method to a class
