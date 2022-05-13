@@ -1,0 +1,19 @@
+/* Lesson 2 Coding Activity Question 1 */
+
+import java.util.Scanner;
+
+public class U3_L2_Activity_One{
+  public static void main(String[] args){
+    
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Please enter four numbers:");
+    double a = scan.nextDouble();
+    double b = scan.nextDouble();
+    double c = scan.nextDouble();
+    double d = scan.nextDouble();
+    if ((a + b + c + d) / 4 >= 89.5) {
+      System.out.println("ABOVE AVERAGE");
+    }
+    
+  }
+}
