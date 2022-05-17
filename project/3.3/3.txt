@@ -1,0 +1,23 @@
+/* Lesson 3 Coding Activity Question 3 */
+
+import java.util.Scanner;
+import testing.Math;
+
+public class U3_L3_Activity_Three{
+  public static void main(String[] args){
+
+    Scanner scan = new Scanner(System.in);
+    int num1 = (int) (Math.random() * 12 + 1);
+    int num2 = (int) (Math.random() * 12 + 1);
+    System.out.println(num1 + " * " + num2 + " = ?");
+    int answer = scan.nextInt();
+    if (answer == num1 * num2)
+    {
+      System.out.println("Correct!");
+    } 
+    else
+    {
+      System.out.println("Wrong");
+    }
+  }
+}
