@@ -16,15 +16,14 @@ public class Main {
       };
       return(whowon);
     }
+
+
+
+  
   public static void main (String args[]) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please choose either: \n\"rock\"\n\"paper\"\n\"scissors\"");
     String p = scan.nextLine().toLowerCase();
-    /*while (p != "rock"|| p != "paper" || p != "scissors"){
-      System.out.println("Please choose either: \n\"rock\"\n\"paper\"\n\"scissors\"");
-      p = scan.nextLine().toLowerCase();
-    }
-    */
     double ran = Math.random();
     int answer = (int) (ran * 3) + 1;
     String computerguess;
