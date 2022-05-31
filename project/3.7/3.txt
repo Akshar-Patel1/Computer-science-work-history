@@ -1,0 +1,24 @@
+/* Lesson 7 Coding Activity Question 3 */
+
+import java.util.Scanner;
+import shapes.*;
+
+public class U3_L7_Activity_Three{
+  public static void main(String[] args){
+
+    Scanner scan = new Scanner(System.in);
+    System.out.println("length:");
+    double x = scan.nextDouble();
+    System.out.println("2 lengths:");
+    double a = scan.nextDouble();
+    double b = scan.nextDouble();
+    Rectangle rec = new Rectangle(x);
+    Rectangle rectwo = new Rectangle(a, b);
+    
+    if (rec.getArea() == rectwo.getArea()) {
+      System.out.println("Congruent Rectangles");
+    } else {
+      System.out.println("Different Rectangles");
+    }
+  }
+}
