@@ -1,0 +1,23 @@
+/* Lesson 1 Coding Activity Question 2 */
+
+import java.util.Scanner;
+
+public class U4_L1_Activity_Two{
+  public static void main(String[] args){
+    
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter the Scores:");
+    int a = 0;
+    int total = 1;
+    int amountofnumbers = 0;
+    while (a != -1) {
+      a = scan.nextInt();
+      total = a + total;
+      amountofnumbers++;
+    }
+    amountofnumbers -= 1;
+    double average = (double) total / amountofnumbers;
+    System.out.println(average);
+    
+  }
+}
